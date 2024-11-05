@@ -1,14 +1,12 @@
 /* eslint-disable react/prop-types */
-import styles from './Profile.module.css'
+
+import styles from './Profile.module.css';
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
-        <img className={styles.avatar}
-          src={image}
-          alt="User avatar"
-        />
+        <img className={styles.avatar} src={image} alt="User avatar" />
         <p className={styles.name}>{name}</p>
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
@@ -32,6 +30,4 @@ const Profile = ({ name, tag, location, image, stats }) => {
   );
 };
 
-
 export default Profile;
-

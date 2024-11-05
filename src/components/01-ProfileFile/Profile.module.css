@@ -21,7 +21,7 @@
 .description {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -58,13 +58,13 @@
 }
 
 .stats li {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 5px;
-    padding: 20px;
-    border-top: 1px solid #998e8e;
-    border-right: 1px solid #998e8e;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+  padding: 20px;
+  border-top: 1px solid #998e8e;
+  border-right: 1px solid #998e8e;
 }
 
 .stats li:last-child {
